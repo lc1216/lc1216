@@ -1,29 +1,20 @@
 # Hi there 👋, I'm lc1216
 
-### 📊 核心项目分类与精选仓库
+### 📊 我的 GitHub 项目与技术栈统计
 
-<table>
-  <tr>
-    <td width="50%">
-      <strong>📁 核心数据处理与计算库 (示例)</strong><br>
-      <sub>使用 Python / MATLAB 进行多尺度建模与自动化数据可视化工具</sub>
-    </td>
-    <td width="50%">
-      <strong>🧪 材料结构与对称性分析 (示例)</strong><br>
-      <sub>基于 DFT/MD 的结构对称性破缺与过渡机制计算流程</sub>
-    </td>
-  </tr>
-</table>
+| 项目大类 | 统计与技术栈徽章 |
+| :--- | :--- |
+| **代码仓库管理** | ![](https://img.shields.io/badge/Total_Repositories-15-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-14-orange?style=flat-square) |
+| **核心脚本开发** | ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Perl-39457E?style=flat-square&logo=perl&logoColor=white) |
+| **知识管理与笔记** | ![](https://img.shields.io/badge/Markdown_Notes-000000?style=flat-square&logo=markdown&logoColor=white) |
 
 ---
 
-### 🛠️ 核心语言及技术栈分类
+### 📂 项目与文件夹分类指南
 
-| 分类项目 | 统计与技术栈徽章 |
-| :--- | :--- |
-| **仓库总数统计** | ![](https://img.shields.io/badge/Total_Repositories-15-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-14-orange?style=flat-square) |
-| **核心数据计算** | ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/MATLAB-E16711?style=flat-square&logo=mathworks&logoColor=white) |
-| **工程开发编译** | ![](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![](https://img.shields.io/badge/Linux_Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) |
+* 🐍 **Python 脚本库**：主要用于多尺度计算数据的自动化处理、日志解析与分子动力学/有限元网格的可视化脚本。
+* 🐪 **Perl 脚本工具**：用于文本挖掘、Slurm 集群作业任务批量处理以及服务器日志的高效过滤。
+* 📝 **Markdown 笔记空间**：系统化记录科研文献阅读笔记、计算调参心得（DFT/MD 踩坑集锦）以及 Linux 环境配置指南。
 
 ---
 
