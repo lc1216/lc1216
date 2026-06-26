@@ -1,26 +1,26 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 */6 * * *" # 每6小时自动统计一次
-  workflow_dispatch: # 允许手动点击运行
+    - cron: "0 */6 * * *" # 每 6 小时全自动统计并更新一次
+  workflow_dispatch: # 同时保留手动点击运行的按钮
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Generate Core Metrics (Default White Theme)
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.TOKEN }} # 读取你仓库里的密钥
+          # 修复核心：在 schedule 模式下，必须改用 filename 参数来让官方安全地写入图片
+          filename: github-metrics.svg 
+          token: ${{ secrets.TOKEN }} # 必须确保仓库 Secrets 里有一个全大写的 TOKEN
           user: lc1216
           template: classic
-          base: header, activity, community, repositories, metadata # 统计项目总数和基础数据
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
           
-          # 核心语言分类统计（开启后会自动统计你所有公开+私有仓库的语言占比）
+          # 核心语言分类统计
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, sass, scss # 过滤掉非核心标记语言
+          plugin_languages_ignored: html, css, tex, less, sass, scss, markdown
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
