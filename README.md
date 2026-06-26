@@ -1,23 +1,26 @@
-# Hi there 👋, I'm lc1216
+name: Metrics
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 每6小时自动统计一次
+  workflow_dispatch: # 允许手动点击运行
 
-### 📊 我的 GitHub 项目与技术栈统计
-
-![](https://img.shields.io/badge/Total_Repositories-15-blue?style=for-the-badge&logo=github&logoColor=white) 
-![](https://img.shields.io/badge/Public_Repos-1-green?style=for-the-badge) 
-![](https://img.shields.io/badge/Private_Repos-14-orange?style=for-the-badge)
-
----
-
-### 🛠️ 核心语言分类占比
-
-* **Python** ![](https://geps.dev/progress/45?dangerColor=3776AB&warningColor=3776AB&successColor=3776AB) `45%`
-* **MATLAB** ![](https://geps.dev/progress/30?dangerColor=E16711&warningColor=E16711&successColor=E16711) `30%`
-* **C++** ![](https://geps.dev/progress/15?dangerColor=00599C&warningColor=00599C&successColor=00599C) `15%`
-* **HTML / Other** ![](https://geps.dev/progress/10?dangerColor=e34c26&warningColor=e34c26&successColor=e34c26) `10%`
-
----
-
-### 🔥 贡献动态
-<p align="left">
-  <img src="https://streak-stats.demolab.com/?user=lc1216&theme=default" alt="Total Contributions" height="150" />
-</p>
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Core Metrics (Default White Theme)
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.TOKEN }} # 读取你仓库里的密钥
+          user: lc1216
+          template: classic
+          base: header, activity, community, repositories, metadata # 统计项目总数和基础数据
+          config_timezone: Asia/Shanghai
+          
+          # 核心语言分类统计（开启后会自动统计你所有公开+私有仓库的语言占比）
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, sass, scss # 过滤掉非核心标记语言
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
