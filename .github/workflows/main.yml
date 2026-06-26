@@ -1,0 +1,19 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule: # 每6小时自动更新一次数据
+    - cron: "0 */6 * * *"
+  workflow_dispatch: # 允许你手动点击按钮立即更新
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # 读取你之前配置的 TOKEN
+        with:
+          USERNAME: lc1216
