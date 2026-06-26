@@ -11,9 +11,9 @@ jobs:
       - name: Generate Core Metrics (Default White Theme)
         uses: lowlighter/metrics@latest
         with:
-          # 修复核心：在 schedule 模式下，必须改用 filename 参数来让官方安全地写入图片
           filename: github-metrics.svg 
-          token: ${{ secrets.TOKEN }} # 必须确保仓库 Secrets 里有一个全大写的 TOKEN
+          # 💡 彻底免除 Token 配置：直接使用官方内置的免密通道（仅对公开主页仓库有效）
+          token: ${{ github.token }} 
           user: lc1216
           template: classic
           base: header, activity, community, repositories, metadata
