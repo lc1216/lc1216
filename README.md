@@ -51,6 +51,11 @@
   <img src="https://streak-stats.demolab.com/?user=lc1216&theme=default" alt="Total Contributions" height="150" />
 </p>
 
+### 🪐 3D 贡献积木墙
+<p align="center">
+  <img src="https://github-profile-3d-contrib.vercel.app/api?username=lc1216&theme=radar" alt="lc1216's 3D Contrib" width="100%" />
+</p>
+
 <p align="left">
   <!-- 3. 作息曲线图 -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
