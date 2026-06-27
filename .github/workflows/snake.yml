@@ -1,0 +1,31 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # 每天北京时间凌晨 2 点在后台完全自动刷新画图
+  workflow_dispatch: # 允许你随时手动点击按钮刷新运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 明确赋予工作流将生成的动画写回仓库的权限
+    steps:
+      - uses: actions/checkout@v3
+      
+      # 使用社区经典的贪吃蛇生成插件
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: lc1216
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            
+      # 将生成的贪吃蛇动画文件自动推送到你的仓库分支中
+      - name: Push Snake to Repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dist/github-snake.svg dist/github-snake-dark.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Generate Snake Canvas"
+          git push
