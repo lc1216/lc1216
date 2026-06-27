@@ -1,5 +1,11 @@
 # Hi there 👋, I'm lc1216
 
+### 🐍 贪吃蛇代码画布
+
+<p align="left">
+  <img src="dist/github-snake.svg" alt="GitHub Snake" width="100%" />
+</p>
+
 ### 📊 核心项目与技术栈索引
 
 | 分类项目 | 技术栈与列表导航 |
