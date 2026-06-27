@@ -45,20 +45,14 @@
 
 ---
 
-### 🔥 贡献动态
+
+### 🔥 动态与综合数据
 <p align="left">
   <img src="https://streak-stats.demolab.com/?user=lc1216&theme=default" alt="Total Contributions" height="150" />
 </p>
----
 
-### 🔥 动态与综合数据
-
-<p align="center">
-  <!-- 1. 连续打卡卡片 -->
-  <img src="https://streak-stats.demolab.com/?user=lc1216&theme=default" alt="Total Contributions" height="160" />
-  
-  <!-- 2. 综合活跃度奖牌卡 -->
-  <img src="https://github-readme-stats-download.vercel.app/api?username=lc1216&show_icons=true&theme=default" alt="GitHub Stats" height="160" />
+<!-- 2. 综合活跃度奖牌卡 -->
+  <img src="https://github-readme-stats-download.vercel.app/api?username=lc1216&show_icons=true&theme=default" alt="GitHub Stats" height="150" />
 </p>
 
 <p align="center">
