@@ -1,26 +1,27 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 */6 * * *" # 每 6 小时全自动统计并更新一次
-  workflow_dispatch: # 同时保留手动点击运行的按钮
+    - cron: "0 */6 * * *" # 每6小时全自动更新
+  workflow_dispatch: # 保留手动点击运行按钮
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 明确赋予工作流将生成的图片写回仓库的权限
     steps:
-      - name: Generate Core Metrics (Default White Theme)
+      - name: Generate Core Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg 
-          # 💡 彻底免除 Token 配置：直接使用官方内置的免密通道（仅对公开主页仓库有效）
-          token: ${{ github.token }} 
+          token: ${{ github.token }} # 使用系统内置免密通道
           user: lc1216
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
           
-          # 核心语言分类统计
+          # 🛠️ 核心修复：强行限制该工具只统计你公开的仓库，不越权访问私有库
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, sass, scss, markdown
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
+          plugin_languages_skipped: "" # 不跳过公开库
+          # 关键参数：通过官方系统底层只读API获取公开数据，不通过 GraphQL 越权扫描私有库
+          config_order: featured, pinned, repositories
