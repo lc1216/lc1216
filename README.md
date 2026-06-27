@@ -46,14 +46,9 @@
 ---
 
 
-### 🔥 动态与综合数据
+### 🔥 贡献动态
 <p align="left">
   <img src="https://streak-stats.demolab.com/?user=lc1216&theme=default" alt="Total Contributions" height="150" />
-</p>
-
-### 🪐 3D 贡献积木墙
-<p align="center">
-  <img src="https://github-profile-3d-contrib.vercel.app/api?username=lc1216&theme=radar" alt="lc1216's 3D Contrib" width="100%" />
 </p>
 
 <p align="left">
