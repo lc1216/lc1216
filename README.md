@@ -52,10 +52,6 @@
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats-download.vercel.app/api?username=lc1216&show_icons=true&theme=default" alt="GitHub Stats" height="150" />
-</p>
-
-<p align="left">
   <!-- 3. 作息曲线图 -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
 </p>
