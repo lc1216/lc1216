@@ -1,13 +1,15 @@
 # Hi there 👋, I'm lc1216
 
-### 📊 核心项目与技术栈分类
+### 📊 实时项目与技术栈统计
 
 | 分类项目 | 统计与技术栈徽章 |
 | :--- | :--- |
 | **代码仓库管理** | ![](https://img.shields.io/badge/Total_Repositories-15-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-14-orange?style=flat-square) |
-| **Python 项目** | ![](https://img.shields.io/badge/Python_Tools-8_repos-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Perl 项目** | ![](https://img.shields.io/badge/Perl_Tools-2_repos-39457E?style=flat-square&logo=perl&logoColor=white) |
-| **笔记文件** | ![](https://img.shields.io/badge/Markdown_Notes-1_repo-000000?style=flat-square&logo=markdown&logoColor=white) |
+| **实时语言占比** | ![](https://img.shields.io/github/languages/top/lc1216/lc1216?style=flat-square) |
+
+<p align="left">
+  <img src="https://github-readme-stats-download.vercel.app/api/top-langs/?username=lc1216&layout=compact&theme=default&hide=html,css,tex,markdown" alt="Top Languages" height="150" />
+</p>
 
 ---
 
