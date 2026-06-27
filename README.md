@@ -9,10 +9,6 @@
 | **Perl 项目** | ![](https://img.shields.io/badge/Perl-39457E?style=flat-square&logo=perl&logoColor=white) |
 | **笔记文件** | ![](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) |
 
-<p align="left">
-  <img src="https://github-readme-stats-download.vercel.app/api/top-langs/?username=lc1216&layout=compact&theme=default&hide=html,css,tex,markdown" alt="Top Languages" height="150" />
-</p>
-
 ---
 
 ### 🐍 Python 项目
