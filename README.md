@@ -10,6 +10,10 @@
 | **Shell 项目** | [![](https://img.shields.io/badge/Shell_Scripts-1_repo-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](#-shell-脚本项目-1个) |
 | **笔记文件** | [![](https://img.shields.io/badge/Markdown_Notes-1_repo-000000?style=flat-square&logo=markdown&logoColor=white)](#-markdown-笔记-1个) |
 
+### 📈 官方公开数据统计
+<p align="left">
+  <img src="https://raw.githubusercontent.com/lc1216/lc1216/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</p>
 ---
 
 ### 🐍 Python 项目 (12个)
