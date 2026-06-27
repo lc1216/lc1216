@@ -1,5 +1,10 @@
 # Hi there 👋, I'm lc1216
 
+### 🌌 个人代码星云
+<p align="center">
+  <img src="https://github-readme-stats-download.vercel.app/api?username=lc1216&theme=tokyonight&show_icons=true" alt="Skyline" />
+</p>
+
 ### 📊 核心项目与技术栈索引
 
 | 分类项目 | 技术栈与列表导航 |
