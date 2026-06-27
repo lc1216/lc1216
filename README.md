@@ -54,7 +54,3 @@
 <p align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
 </p>
-
-<p align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
-</p>
