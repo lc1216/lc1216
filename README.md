@@ -4,7 +4,7 @@
 
 | 分类项目 | 技术栈与列表导航 |
 | :--- | :--- |
-| **代码仓库管理** | ![](https://img.shields.io/badge/Total_Repositories-16-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-15-orange?style=flat-square) |
+| **代码仓库管理** | ![](https://img.shields.io/badge/Total_Repositories-17-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-16-orange?style=flat-square) |
 | **Python 工具箱** | [![](https://img.shields.io/badge/Python_Projects-查看列表-3776AB?style=flat-square&logo=python&logoColor=white)](#-python-项目-12个) |
 | **Perl 工具箱** | [![](https://img.shields.io/badge/Perl_Projects-查看列表-39457E?style=flat-square&logo=perl&logoColor=white)](#-perl-项目-2个) |
 | **Shell 脚本库** | [![](https://img.shields.io/badge/Shell_Scripts-查看列表-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](#-shell-脚本项目-1个) |
