@@ -4,18 +4,18 @@
 
 | 分类项目 | 技术栈与列表导航 |
 | :--- | :--- |
-| **代码仓库管理** | ![](https://img.shields.io/badge/Total_Repositories-18-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-17-orange?style=flat-square) |
-| **Python 项目** | [![](https://img.shields.io/badge/Python_Tools-13_repos-3776AB?style=flat-square&logo=python&logoColor=white)](#-python-项目-13个) |
+| **代码仓库管理** | ![](https://img.shields.io/badge/Total_Repositories-19-blue?style=flat-square&logo=github) ![](https://img.shields.io/badge/Private_Repos-18-orange?style=flat-square) |
+| **Python 项目** | [![](https://img.shields.io/badge/Python_Tools-14_repos-3776AB?style=flat-square&logo=python&logoColor=white)](#-python-项目-14个) |
 | **Perl 项目** | [![](https://img.shields.io/badge/Perl_Tools-2_repos-39457E?style=flat-square&logo=perl&logoColor=white)](#-perl-项目-2个) |
 | **Shell 项目** | [![](https://img.shields.io/badge/Shell_Scripts-1_repo-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](#-shell-脚本项目-1个) |
 | **笔记文件** | [![](https://img.shields.io/badge/Markdown_Notes-1_repo-000000?style=flat-square&logo=markdown&logoColor=white)](#-markdown-笔记-1个) |
 
 ---
 
-### 🐍 Python 项目 (13个)
+### 🐍 Python 项目 (14个)
 
 * **NNP：神经网络力场预处理与后处理工具**
-* **VASP、CP2K 任务程序化工具**
+* **VASP、CP2K 和Lammps任务程序化工具**
 * **综合性 DFT 计算后处理工具**
 * **AI-For-Science (爬取指定结构) 的程序**
 * **斯格明子可视化模拟工具**
