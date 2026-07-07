@@ -48,9 +48,6 @@
 
 
 ### 🔥 贡献动态
-<p align="left">
-  <img src="https://streak-stats.demolab.com/?user=lc1216&theme=default" alt="Total Contributions" height="150" />
-</p>
 
 <p align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
