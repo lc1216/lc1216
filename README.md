@@ -48,7 +48,6 @@
 
 
 ### 🔥 贡献动态
-
 <p align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lc1216&show_icons=true&theme=default" alt="GitHub Stats" width="100%" />
 </p>
