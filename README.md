@@ -49,5 +49,5 @@
 
 ### 🔥 贡献动态
 <p align="left">
-  <img src="https://activity-graph.herokuapp.com/graph?username=lc1216&theme=github-light" alt="Activity Graph" width="100%" />
+  <img src="https://ghchart.rshah.org/lc1216" alt="lc1216's Github Contribution Chart" width="100%" />
 </p>
